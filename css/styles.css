@@ -1,0 +1,267 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #CCCCCC;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapperPage {
+  width: 100%;
+  background-color: #02160b;
+  background-image: url("../img/first.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 780px;
+  background-size: cover;
+}
+
+.wraper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  float: left;
+  width: 68.2px;
+  height: 58.43px;
+  margin-top: 15px;
+}
+
+.iconF{
+  float: left;
+  width: 68.2px;
+  height: 58.43px;
+  margin-top: 35px;
+}
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #F7F7F7;
+  text-decoration: none;
+  margin-right: 466px;
+  padding-bottom: 0;
+  padding-left: 13px;
+  padding-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navigText {
+  color: #F7F7F7;
+  margin-left: 15px;
+  padding: 0 27px 0 15px;
+  font-size: 23px;
+}
+
+.iconSearch {
+  width: 23.31px;
+  height: 23.31px;
+  padding-left: 20px;
+  margin-left: 19px;
+}
+
+.signIn {
+  border: 1px solid #CD6326;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  border-radius: 5px;
+  margin-left: 37px;
+  font-family: Roboto;
+
+}
+
+.name {
+  width: 199px;
+  height: 72px;
+  letter-spacing: 2px;
+  font-size: 48px;
+  color: #CD6326;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 105px;
+}
+
+
+.image{
+  position: relative;
+}
+
+h4{
+    font-family: 'Open Sans';
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  width:100%;
+  color: #F7F7F7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.content {
+  width: 274px;
+  height: 108px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #F7F7F7;
+
+}
+
+.donateButton {
+  width: 160px;
+  height: 60px;
+  padding: 16px 42px 17px 42px;
+  background-color: #CD6326;
+  border-radius: 5px;
+  border: 2px solid;
+  font-family: 'Roboto';
+  font-size: 23px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #F7F7F7;
+  line-height: 27px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.donateButton:hover {
+  background-color: #E39128;
+  border: 2px solid;
+  cursor: auto;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.article {
+  font-size: 48px;
+  text-align: center;
+  color: #333333;
+  margin-top: 120px;
+  margin-bottom: 22px;
+  letter-spacing:1.5px;
+}
+
+.textArticle {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+  letter-spacing:1.5px;
+
+}
+
+.link {
+  color: #666666;
+  width: 29px;
+  height: 50px;
+}
+
+
+.search{
+  margin: 220px;
+}
+
+
+.searchText {
+  margin-left: 270px;
+  font-size: 27px;
+  text-align: center;
+  color: #333333;
+  letter-spacing:1.5px;
+}
+
+.inputSection {
+  font-family: Roboto;
+  font-size: 23px;
+  width: 750px;
+  margin-left: 350px;
+  margin-top: 55px;
+}
+
+.searchFind {
+  width: 510px;
+  height: 60px;
+  background-color: #CCCCCC;
+  padding: 0;
+  border-right: 0;
+
+}
+
+.searchSubmit {
+  width: 120px;
+  height: 60px;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+  font-family: Roboto;
+  color: #F7F7F7;
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  padding-top: 120px;
+  padding-left: 21px;
+  background-image: url("../img/footer.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  background-size: cover;
+  width: 100%;
+  background-color: #181617;
+}
+
+.logoF{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #F7F7F7;
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-left: 9px;
+  padding-top: 0px;
+}
+
+.footerIc{
+  padding-left: 95px;
+}
+.social{
+margin:1;
+padding: 0;
+}
+
+.LatArticleGet{
+  background-color: #cccccc;
+}

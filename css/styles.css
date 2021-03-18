@@ -35,6 +35,7 @@ a {
 .navigation {
   display: flex;
   justify-content: flex-start;
+
 }
 
 .icon {
@@ -92,14 +93,12 @@ a {
 
 }
 
-.name {
-  width: 199px;
-  height: 72px;
+h1 {
   letter-spacing: 2px;
   font-size: 48px;
   color: #CD6326;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 105px;
+  text-align: left;
 }
 
 
@@ -107,9 +106,19 @@ a {
   position: relative;
 }
 
-h4{
-    font-family: 'Open Sans';
+.descriptionImg{
   position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 39px;
+  left: 0;
+}
+
+h4 {
+  font-family: 'Open Sans';
+
   top: 250px;
   left: 10px;
   width:100%;
@@ -124,7 +133,7 @@ h4{
   font-size: 18px;
   line-height: 27px;
   color: #F7F7F7;
-
+  text-align: left;
 }
 
 .donateButton {
@@ -199,20 +208,25 @@ h4{
 }
 
 .inputSection {
-  font-family: Roboto;
-  font-size: 23px;
-  width: 750px;
-  margin-left: 350px;
-  margin-top: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 61px;
+  padding-top: 220px;
 }
 
 .searchFind {
   width: 510px;
   height: 60px;
   background-color: #CCCCCC;
-  padding: 0;
-  border-right: 0;
-
+  font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    line-height: 26.95px;
+    color: #666666;
+    border: 1px solid #666666;
+    padding: 0 15px;
 }
 
 .searchSubmit {
@@ -221,15 +235,16 @@ h4{
   background: #CD6326;
   border: 1px solid #CD6326;
   border-radius: 0px 5px 5px 0px;
-  font-family: Roboto;
   color: #F7F7F7;
+  align-items: center;
+  font-family: 'Roboto';
   font-size: 23px;
-  margin: 0;
-  padding: 0;
+  line-height: 27px;
+  justify-content: center;
 }
 
 .footer {
-  padding-top: 120px;
+  padding-top: 220px;
   padding-left: 21px;
   background-image: url("../img/footer.jfif");
   background-repeat: no-repeat;
@@ -238,6 +253,7 @@ h4{
   background-size: cover;
   width: 100%;
   background-color: #181617;
+  margin-top: 100px;
 }
 
 .logoF{
@@ -255,13 +271,67 @@ h4{
 }
 
 .footerIc{
-  padding-left: 95px;
+  padding-left: 85px;
+}
+
+.footerMore{
+  padding-right: 65px;
 }
 .social{
-margin:1;
-padding: 0;
+margin:10px;
+padding: 2px;
 }
 
 .LatArticleGet{
   background-color: #cccccc;
+  padding-bottom: 220px;
+}
+
+.get-notified__form {
+  display: flex;
+  justify-content: center;
+  margin-top: 61px;
+}
+
+.get-notified__form input {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 23px;
+  line-height: 27px;
+}
+.lates-articles__email {
+  height: 60px;
+  width: 510px;
+  color: #666666;
+  background: none;
+  border: 1px solid #666666;
+  padding: 0 15px;
+}
+.lates-articles__submit {
+  width: 120px;
+  justify-content: center;
+  color: #F7F7F7;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.greySection{
+  margin-bottom: 250px;
+}
+
+h3{
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+}
+
+p
+{
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
 }

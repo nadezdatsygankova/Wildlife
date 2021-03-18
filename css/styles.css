@@ -4,6 +4,28 @@ body {
   background-color: #CCCCCC;
   margin: 0;
 }
+h1 {
+  letter-spacing: 2px;
+  font-size: 48px;
+  color: #CD6326;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+h3{
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+}
+h4 {
+  font-family: 'Open Sans';
+  top: 250px;
+  left: 10px;
+  width:100%;
+  color: #F7F7F7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 li {
   display: inline-block;
@@ -16,18 +38,27 @@ ul {
 a {
   text-decoration: none;
 }
+p
+{
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
 
+
+/* Header */
 .wrapperPage {
   width: 100%;
   background-color: #02160b;
-  background-image: url("../img/first.jfif");
+  background-image: url("../img/header.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 780px;
   background-size: cover;
 }
 
-.wraper {
+.wrapper {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -45,12 +76,6 @@ a {
   margin-top: 15px;
 }
 
-.iconF{
-  float: left;
-  width: 68.2px;
-  height: 58.43px;
-  margin-top: 35px;
-}
 .logo {
   font-family: Roboto;
   font-style: normal;
@@ -75,6 +100,7 @@ a {
   font-size: 23px;
 }
 
+
 .iconSearch {
   width: 23.31px;
   height: 23.31px;
@@ -90,43 +116,10 @@ a {
   border-radius: 5px;
   margin-left: 37px;
   font-family: Roboto;
-
-}
-
-h1 {
-  letter-spacing: 2px;
-  font-size: 48px;
-  color: #CD6326;
-  font-family: 'Open Sans', sans-serif;
-  text-align: left;
 }
 
 
-.image{
-  position: relative;
-}
-
-.descriptionImg{
-  position: absolute;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  bottom: 39px;
-  left: 0;
-}
-
-h4 {
-  font-family: 'Open Sans';
-
-  top: 250px;
-  left: 10px;
-  width:100%;
-  color: #F7F7F7;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
+/* Introduction */
 .content {
   width: 274px;
   height: 108px;
@@ -135,7 +128,6 @@ h4 {
   color: #F7F7F7;
   text-align: left;
 }
-
 .donateButton {
   width: 160px;
   height: 60px;
@@ -154,21 +146,21 @@ h4 {
   justify-content: flex-start;
   margin-top: 50px;
 }
-
 .donateButton:hover {
   background-color: #E39128;
   border: 2px solid;
   cursor: auto;
 }
 
-.slider {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 100px;
-}
 
+/* Slider */
+.LatArticleGet{
+  background-color: #cccccc;
+  padding-bottom: 220px;
+}
+.greySection{
+  margin-bottom: 250px;
+}
 .article {
   font-size: 48px;
   text-align: center;
@@ -177,71 +169,71 @@ h4 {
   margin-bottom: 22px;
   letter-spacing:1.5px;
 }
-
 .textArticle {
   font-size: 24px;
   line-height: 36px;
   text-align: center;
   color: #666666;
   letter-spacing:1.5px;
-
 }
-
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
 .link {
   color: #666666;
   width: 29px;
   height: 50px;
 }
-
-
-.search{
-  margin: 220px;
+.image{
+  position: relative;
+}
+.descriptionImg{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 39px;
+  left: 0;
 }
 
+/* Input Form */
 
-.searchText {
-  margin-left: 270px;
-  font-size: 27px;
-  text-align: center;
-  color: #333333;
-  letter-spacing:1.5px;
-}
-
-.inputSection {
-
+.getNotifiedForm {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 61px;
-  padding-top: 220px;
 }
 
-.searchFind {
-  width: 510px;
-  height: 60px;
-  background-color: #CCCCCC;
-  font-weight: 400;
-    font-size: 23px;
-    font-style: normal;
-    line-height: 26.95px;
-    color: #666666;
-    border: 1px solid #666666;
-    padding: 0 15px;
-}
-
-.searchSubmit {
-  width: 120px;
-  height: 60px;
-  background: #CD6326;
-  border: 1px solid #CD6326;
-  border-radius: 0px 5px 5px 0px;
-  color: #F7F7F7;
+.getNotifiedForm input {
+  display: flex;
   align-items: center;
   font-family: 'Roboto';
   font-size: 23px;
   line-height: 27px;
-  justify-content: center;
 }
+.latesArticlesEmail {
+  height: 60px;
+  width: 510px;
+  color: #666666;
+  background: none;
+  border: 1px solid #666666;
+  padding: 0 15px;
+}
+.latesArticlesSubmit {
+  width: 120px;
+  justify-content: center;
+  color: #F7F7F7;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+}
+
+/* Footer */
 
 .footer {
   padding-top: 220px;
@@ -255,7 +247,6 @@ h4 {
   background-color: #181617;
   margin-top: 100px;
 }
-
 .logoF{
   font-family: Roboto;
   font-style: normal;
@@ -273,65 +264,10 @@ h4 {
 .footerIc{
   padding-left: 85px;
 }
-
 .footerMore{
   padding-right: 65px;
 }
 .social{
-margin:10px;
-padding: 2px;
-}
-
-.LatArticleGet{
-  background-color: #cccccc;
-  padding-bottom: 220px;
-}
-
-.get-notified__form {
-  display: flex;
-  justify-content: center;
-  margin-top: 61px;
-}
-
-.get-notified__form input {
-  display: flex;
-  align-items: center;
-  font-family: 'Roboto';
-  font-size: 23px;
-  line-height: 27px;
-}
-.lates-articles__email {
-  height: 60px;
-  width: 510px;
-  color: #666666;
-  background: none;
-  border: 1px solid #666666;
-  padding: 0 15px;
-}
-.lates-articles__submit {
-  width: 120px;
-  justify-content: center;
-  color: #F7F7F7;
-  background: #CD6326;
-  border: 1px solid #CD6326;
-  border-radius: 0px 5px 5px 0px;
-}
-
-.greySection{
-  margin-bottom: 250px;
-}
-
-h3{
-  font-size: 27px;
-  line-height: 40px;
-  text-align: center;
-  color: #333333;
-}
-
-p
-{
-    font-size: 17px;
-    line-height: 27px;
-    text-align: center;
-    color: #F7F7F7;
-}
+  margin:10px;
+  padding: 2px;
+  }
